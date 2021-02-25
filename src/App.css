@@ -1,0 +1,43 @@
+.navigation {
+  display: flex;
+  background-color: purple;
+}
+
+.navigation a {
+  padding: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+/* .navigation a:link, a:visited {
+  text-decoration: none;
+} */
+
+.navigation a:hover {
+  /* text-decoration: none; */
+  background-color: #6D0062;
+}
+
+.navigation .active {
+  text-decoration: underline;
+  background-color: purple;
+  border: 1px solid white ;
+
+}
+
+/* .active {
+  background-color: lightcoral;
+} */
+
+.container {
+  margin: 16px;
+}
+
+.shoe-details-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shoe-details-container div {
+  margin: 16px;
+}
