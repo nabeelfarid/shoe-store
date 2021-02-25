@@ -82,14 +82,14 @@ const ShoeDetails = () => {
     return (
       <div className={'shoe-details-container'}>
         <div>
-        <h2>Loading...</h2>
+          <h2>Loading...</h2>
         </div>
       </div>
     )
   }
   return (
     <div className={'shoe-details-container'}>
-      <div>
+      <div >
         <h2>{shoe.title}</h2>
         <img src={shoe.img} alt={shoe.title} />
       </div>
@@ -107,8 +107,9 @@ const ShoeDetails = () => {
       </div>
       <div>
         <h4>Description:</h4>
-        <p>{shoe.description}</p>
+        <span>{shoe.description}</span>
       </div>
+
     </div>
   )
 }
